@@ -1,5 +1,5 @@
 function encrypt --description 'Encrypt a file with openssl'
-	set file $argv[1]
+    set file $argv[1]
     if test (count $argv) = 1
         set destination $file.enc
     else

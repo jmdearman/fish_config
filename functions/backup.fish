@@ -1,5 +1,5 @@
 function backup --description 'Encrypt and backup file to remote directory.'
-	set file $argv[1]
+    set file $argv[1]
     if test (count $argv) -eq 1
         if set -q DEFAULT_BACKUP_DIRECTORY
             set directory $DEFAULT_BACKUP_DIRECTORY

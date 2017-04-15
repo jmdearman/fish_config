@@ -1,5 +1,5 @@
 function compress --description 'Compress a file with pixz without hammering the original.'
-	set file $argv[1]
+    set file $argv[1]
     if test (count $argv) = 1
         set destination $file.xz
     else

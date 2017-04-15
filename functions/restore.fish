@@ -1,5 +1,5 @@
 function restore --description 'Restore an encrypted file to directory'
-	set file $argv[1]
+    set file $argv[1]
     if test (count $argv) = 1
         echo "Must provide a destination directory."
         return 1
